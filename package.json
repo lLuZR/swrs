@@ -1,0 +1,33 @@
+{
+  "name": "swrs",
+  "version": "1.0.0",
+  "description": "quick switch npm registry url",
+  "main": "./bin/index.js",
+  "bin": {
+    "switch-registry": "./bin/index.js",
+    "swrs": "./bin/index.js"
+  },
+  "engines": {
+    "node": ">=8.9.0",
+    "npm": ">=5.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "template"
+  ],
+  "files": [
+    "bin",
+    "config",
+    "log.js",
+    "switch.js"
+  ],
+  "author": "lluzr",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0"
+  }
+}
