@@ -2,14 +2,14 @@ README
 ============
 Simple utility to setup and switch between npm registries.
 
-###Install
+### Install
     npm install swrs -g
 
-###Run program width
+### Run program width
     swrs {command} {args}
     switch-registry {command} {args}
 
-##Commands
+## Commands
 * -v, --version(Display version number)
 * -h(View the use help documentation)
 * list, ls(Display list of registry that has been added)
@@ -19,5 +19,5 @@ Simple utility to setup and switch between npm registries.
 * change(same as use)
 * remove(Remove an existing registry)
 
-###List all npm registries
+### List all npm registries
     swrs ls
