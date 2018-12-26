@@ -16,7 +16,9 @@
   },
   "preferGlobal": true,
   "keywords": [
-    "template"
+    "npm",
+    "switch",
+    "registry"
   ],
   "files": [
     "bin",
